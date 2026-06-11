@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Campo e Cidade Unidos pelo Futuro</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f9f4;
+        color:#333;
+    }
+
+    header{
+        background:linear-gradient(135deg,#2e7d32,#66bb6a);
+        color:white;
+        text-align:center;
+        padding:60px 20px;
+    }
+
+    header h1{
+        font-size:3rem;
+        margin-bottom:10px;
+    }
+
+    header p{
+        font-size:1.2rem;
+    }
+
+    nav{
+        background:#1b5e20;
+        padding:15px;
+        text-align:center;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-weight:bold;
+    }
+
+    section{
+        padding:50px 10%;
+    }
+
+    .cards{
+        display:flex;
+        flex-wrap:wrap;
+        gap:20px;
+        justify-content:center;
+    }
+
+    .card{
+        background:white;
+        width:300px;
+        padding:20px;
+        border-radius:15px;
+        box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-5px);
+    }
+
+    .card h3{
+        color:#2e7d32;
+        margin-bottom:10px;
+    }
+
+    .banner{
+        background:#81c784;
+        text-align:center;
+        color:white;
+        padding:40px;
+        border-radius:15px;
+        margin-top:30px;
+    }
+
+    footer{
+        background:#1b5e20;
+        color:white;
+        text-align:center;
+        padding:20px;
+    }
+
+    button{
+        background:#2e7d32;
+        color:white;
+        border:none;
+        padding:12px 25px;
+        border-radius:8px;
+        cursor:pointer;
+        margin-top:15px;
+    }
+
+    button:hover{
+        background:#1b5e20;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🌱 Agrinho 2026</h1>
+    <p>Campo e Cidade Unidos pelo Futuro Sustentável</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#temas">Temas</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre o Agrinho 2026</h2>
+    <p>
+        O Programa Agrinho incentiva a educação, a cidadania e a
+        conscientização sobre a importância do campo para a sociedade.
+        Em 2026, o foco é fortalecer a união entre tecnologia,
+        sustentabilidade e produção responsável.
+    </p>
+</section>
+
+<section id="temas">
+    <h2>Temas Principais</h2>
+    <br>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🚜 Agricultura Moderna</h3>
+            <p>Uso de tecnologias para aumentar a produtividade e preservar recursos naturais.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌎 Meio Ambiente</h3>
+            <p>Práticas sustentáveis que ajudam a proteger rios, florestas e a biodiversidade.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏙️ Campo e Cidade</h3>
+            <p>A conexão entre produtores rurais e consumidores fortalece toda a sociedade.</p>
+        </div>
+    </div>
+</section>
+
+<section id="sustentabilidade">
+    <div class="banner">
+        <h2>🌿 Construindo um Futuro Melhor</h2>
+        <p>
+            Pequenas atitudes hoje garantem qualidade de vida para as próximas gerações.
+        </p>
+
+        <button onclick="mostrarMensagem()">
+            Saiba Mais
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Agrinho - Projeto Educacional</p>
+</footer>
+
+<script>
+function mostrarMensagem() {
+    alert("O Agrinho 2026 promove educação, sustentabilidade e cidadania!");
+}
+</script>
+
+</body>
+</html>
