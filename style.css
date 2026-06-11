@@ -1,0 +1,131 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f9f4;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(135deg, #2e7d32, #66bb6a);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* ===== NAV ===== */
+nav {
+    background: #1b5e20;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    padding: 50px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2e7d32;
+}
+
+/* ===== CARDS ===== */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* ===== BANNER ===== */
+.banner {
+    background: #81c784;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.banner button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.banner button:hover {
+    background: #1b5e20;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media(max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
